@@ -24,14 +24,16 @@
           />
         </div>
 
-        <form class="flex flex-col space-y-4">
+        <form  method="POST" action="/login" class="flex flex-col space-y-4">
           <input
             type="text"
+             name="username"
             placeholder="Phone number, username, or email"
             class="border border-gray-300 rounded-sm px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-gray-400"
           />
           <input
             type="password"
+             name="password"
             placeholder="Password"
             class="border border-gray-300 rounded-sm px-3 py-2 text-sm focus:outline-none focus:ring-1 focus:ring-gray-400"
           />
